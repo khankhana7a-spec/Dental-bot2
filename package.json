@@ -1,0 +1,18 @@
+{
+  "name": "dent-o-care-assistant-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Dent-O-Care 'Dento' assistant — powers the website chat widget and the WhatsApp bot.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
